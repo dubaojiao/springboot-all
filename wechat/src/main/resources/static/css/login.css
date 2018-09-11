@@ -1,0 +1,43 @@
+.login-div{
+    box-shadow:3px 3px 8px #d5d6cc;
+    width: 310px;
+    height: 310px;
+    background: #ffffff;
+    margin: 0 auto;
+    position:relative;
+}
+.biao-div{
+    background: #725130;
+    width: 180px;
+    height: 30px;
+    position:absolute;
+    top: -10px;
+    right: -73px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);		/* IE 9 */
+    -webkit-transform: rotate(45deg);	/* Safari and Chrome */
+    -o-transform: rotate(45deg);		/* Opera */
+    -moz-transform: rotate(45deg);		/* Firefox */
+    opacity:0.9;
+    padding: 18px 0 10px 0;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.phone{
+    width: 80%;
+    border: 1px solid #797a72;
+    padding: 15px 10px;
+    margin-top: 30%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 5px;
+    font-size: 18px;
+    width: 50%;
+    padding: 5px;
+}
