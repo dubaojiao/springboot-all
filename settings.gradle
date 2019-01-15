@@ -1,2 +1,5 @@
 include 'gamesocket'
+include 'javaDemo'
+include 'demo'
+include 'page-reptile'
 

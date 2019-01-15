@@ -53,7 +53,7 @@ public class RedisConfig {
     }
 
 
-    /*
+    /**
      * Redis消息监听器容器
      * 这个容器加载了RedisConnectionFactory和消息监听器
      */
@@ -66,7 +66,7 @@ public class RedisConfig {
         return container;
     }
 
-    /*
+    /**
      * 将Receiver注册为一个消息监听器，并指定消息接收的方法（receiveMessage）
      * 如果不指定消息接收的方法，消息监听器会默认的寻找Receiver中的handleMessage这个方法作为消息接收的方法
      */
@@ -75,7 +75,7 @@ public class RedisConfig {
         return new MessageListenerAdapter(receiver, "receiveMessage");
     }
 
-    /*
+    /**
      * Receiver实例
      */
     @Bean
@@ -88,7 +88,7 @@ public class RedisConfig {
         return new CountDownLatch(1);
     }
 
-    /*
+    /**
      * Redis Template 用来发送消息
      */
     @Bean
